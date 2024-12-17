@@ -1,0 +1,149 @@
+*, html,body{
+    margin :0;
+    padding: 0;
+    scroll-behavior:smooth;
+}
+
+.nav-cont{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+}
+
+.nav-cont li{
+    list-style: none;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.nav-cont a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    font-size: 2em;
+    font-family: montserrat;
+    color: #472614; 
+    font-weight: bold;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.nav-cont a:hover{
+    color:#A67B5B;
+    transition: 0.3s all ease-in-out;
+    font-size: 40px;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+}
+
+.wrap-ctc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height:90vh;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.fa-brands{
+   font-size: 150px;
+   padding: 50px;
+   color:#472614;
+}
+
+.soc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:#A67B5B;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+
+}
+
+button{
+    background-color: #472614;
+    color: #ffffff;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: montserrat;
+}
+
+.faq{
+    font-family: montserrat;
+    max-width: 50%;
+    color: #472614;
+    font-weight: bolder;
+}
+
+.ans{
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#351b0d;
+}
+
+.que{
+    font-size: 40px;
+}
+
+footer{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+}
+
+@media screen and (max-width:767px)
+{
+
+    .wrap-ctc{
+        height: 100vh;
+    }
+
+    .faq{
+        max-width: 70%;
+    }
+
+    .que{
+        font-size:30px;
+    }
+
+    .ans{
+        font-size: 15px;
+    }
+
+    .social{
+        flex-direction: row;
+    }
+
+    .fa-brands{
+        font-size: 50px;
+    }
+
+    button{
+        font-size: 10px;
+    }
+}

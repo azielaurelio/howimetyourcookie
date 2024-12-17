@@ -57,7 +57,7 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -132,7 +132,7 @@ footer{
     }
 
     .menu-cont{
-        height: 200vh;
+        height: 400vh;
     }
     
     .card-img{
